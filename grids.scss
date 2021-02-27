@@ -1,0 +1,46 @@
+// GENERATE GRIDS FOR ALL SIZES 
+@for $col from 1 to 25 {
+    .col-#{$col} { width: 4.166666666666667px * $col; }
+}  
+ 
+// GRIDS MIN 576 PX 
+@media(min-width:576px){
+    @for $col from 1 to 25 {
+        .col-sm-#{$col} { width: 4.166666666666667px * $col; }
+    }  
+} 
+ 
+// GRIDS MIN 768 PX
+@media(min-width:768px){
+    @for $col from 1 to 25 {
+        .col-md-#{$col} { width: 4.166666666666667px * $col; }
+    }  
+}  
+
+// GRIDS MIN 992 PX 
+@media(min-width:992px){
+    @for $col from 1 to 25 {
+        .col-lg-#{$col} { width: 4.166666666666667px * $col; }
+    }  
+} 
+
+// GRIDS MIN 1200 PX
+@media(min-width:1200px){
+    @for $col from 1 to 25 {
+        .col-xl-#{$col} { width: 4.166666666666667px * $col; }
+    }  
+} 
+
+// GRIDS MIN 1367 PX
+@media(min-width:1367px){
+    @for $col from 1 to 25 {
+        .col-xxl-#{$col} { width: 4.166666666666667px * $col; }
+    }
+} 
+
+// GRIDS MIN 1921 PX 
+@media(min-width:1921px){
+    @for $col from 1 to 25 {
+        .col-xxxl-#{$col} { width: 4.166666666666667px * $col; }
+    }
+} 

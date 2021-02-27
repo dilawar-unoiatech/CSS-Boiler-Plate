@@ -1,0 +1,130 @@
+ 
+// PADDINGS MIN 1366 PX
+@for $padding from 1 to 21 {
+    .p-#{$padding} { padding: 5px * $padding; }
+}
+   
+// PADDING TOP  
+@for $padding from 1 to 21 {
+    .pt-#{$padding} { padding-top: 5px * $padding; }
+}  
+// PADDING RIGHT  
+@for $padding from 1 to 21 {
+    .pr-#{$padding} { padding-right: 5px * $padding; }
+}  
+// PADDING BOTTOM  
+@for $padding from 1 to 21 {
+    .pb-#{$padding} { padding-bottom: 5px * $padding; }
+}  
+// PADDING RIGHT  
+@for $padding from 1 to 21 {
+    .pl-#{$padding} { padding-left: 5px * $padding; }
+}  
+
+// PADDINGS MIN 576 PX
+@media(min-width:576px){
+
+    .p-sm-0 { padding: 0px }
+    .pt-sm-0 { padding-top: 0px; }
+    .pr-sm-0 { padding-right: 0px; }
+    .pb-sm-0 { padding-bottom: 0px; }
+    .pl-sm-0 { padding-left: 0px; }
+
+    @for $padding from 1 to 21 {
+        .p-sm-#{$padding} { padding: 5px * $padding; }
+        .pt-sm-#{$padding} { padding-top: 5px * $padding; }
+        .pr-sm-#{$padding} { padding-right: 5px * $padding; }
+        .pb-sm-#{$padding} { padding-bottom: 5px * $padding; }
+        .pl-sm-#{$padding} { padding-left: 5px * $padding; }
+    }  
+} 
+ 
+// PADDINGS MIN 768 PX
+@media(min-width:768px){
+
+    .p-md-0 { padding: 0px }
+    .pt-md-0 { padding-top: 0px; }
+    .pr-md-0 { padding-right: 0px; }
+    .pb-md-0 { padding-bottom: 0px; }
+    .pl-md-0 { padding-left: 0px; }
+
+    @for $padding from 1 to 21 {
+        .p-md-#{$padding} { padding: 5px * $padding; }
+        .pt-md-#{$padding} { padding-top: 5px * $padding; }
+        .pr-md-#{$padding} { padding-right: 5px * $padding; }
+        .pb-md-#{$padding} { padding-bottom: 5px * $padding; }
+        .pl-md-#{$padding} { padding-left: 5px * $padding; }
+    }  
+}  
+
+// PADDINGS MIN 992 PX 
+@media(min-width:992px){
+
+    .p-lg-0 { padding: 0px }
+    .pt-lg-0 { padding-top: 0px; }
+    .pr-lg-0 { padding-right: 0px; }
+    .pb-lg-0 { padding-bottom: 0px; }
+    .pl-lg-0 { padding-left: 0px; }
+
+    @for $padding from 1 to 21 {
+        .p-lg-#{$padding} { padding: 5px * $padding; }
+        .pt-lg-#{$padding} { padding-top: 5px * $padding; }
+        .pr-lg-#{$padding} { padding-right: 5px * $padding; }
+        .pb-lg-#{$padding} { padding-bottom: 5px * $padding; }
+        .pl-lg-#{$padding} { padding-left: 5px * $padding; }
+    }  
+} 
+
+// PADDINGS MIN 1200 PX
+@media(min-width:1200px){
+
+    .p-xl-0 { padding: 0px }
+    .pt-xl-0 { padding-top: 0px; }
+    .pr-xl-0 { padding-right: 0px; }
+    .pb-xl-0 { padding-bottom: 0px; }
+    .pl-xl-0 { padding-left: 0px; }
+
+    @for $padding from 1 to 21 {
+        .p-xl-#{$padding} { padding: 5px * $padding; }
+        .pt-xl-#{$padding} { padding-top: 5px * $padding; }
+        .pr-xl-#{$padding} { padding-right: 5px * $padding; }
+        .pb-xl-#{$padding} { padding-bottom: 5px * $padding; }
+        .pl-xl-#{$padding} { padding-left: 5px * $padding; }
+    }  
+} 
+
+// PADDINGS MIN 1367 PX
+@media(min-width:1367px){
+
+    .p-xxl-0 { padding: 0px }
+    .pt-xxl-0 { padding-top: 0px; }
+    .pr-xxl-0 { padding-right: 0px; } 
+    .pb-xxl-0 { padding-bottom: 0px; }
+    .pl-xxl-0 { padding-left: 0px; }
+
+    @for $padding from 1 to 21 {
+        .p-xxl-#{$padding} { padding: 5px * $padding; }
+        .pt-xxl-#{$padding} { padding-top: 5px * $padding; }
+        .pr-xxl-#{$padding} { padding-right: 5px * $padding; }
+        .pb-xxl-#{$padding} { padding-bottom: 5px * $padding; }
+        .pl-xxl-#{$padding} { padding-left: 5px * $padding; }
+    }
+} 
+
+// PADDINGS MIN 1921 PX 
+@media(min-width:1921px){ 
+
+    .p-xxxl-0 { padding: 0px }
+    .pt-xxxl-0 { padding-top: 0px; }
+    .pr-xxxl-0 { padding-right: 0px; }
+    .pb-xxxl-0 { padding-bottom: 0px; }
+    .pl-xxxl-0 { padding-left: 0px; }
+
+    @for $padding from 1 to 21 {
+        .p-xxxl-#{$padding} { padding: 5px * $padding; }
+        .pt-xxxl-#{$padding} { padding-top: 5px * $padding; }
+        .pr-xxxl-#{$padding} { padding-right: 5px * $padding; }
+        .pb-xxxl-#{$padding} { padding-bottom: 5px * $padding; }
+        .pl-xxxl-#{$padding} { padding-left: 5px * $padding; }
+    }
+} 

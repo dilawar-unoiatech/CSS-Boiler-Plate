@@ -1,0 +1,46 @@
+// GENERATE FONTS FOR ALL SIZES 
+@for $font from 1 to 61 {
+    .font-#{$font} { font-size: 2px * $font; }
+}  
+ 
+// FONTS MIN 576 PX
+@media(min-width:576px){
+    @for $font from 1 to 61 {
+        .font-sm-#{$font} { font-size: 2px * $font; }
+    }  
+} 
+ 
+// FONTS MIN 768 PX
+@media(min-width:768px){
+    @for $font from 1 to 61 {
+        .font-md-#{$font} { font-size: 2px * $font; }
+    }  
+}  
+
+// FONTS MIN 992 PX 
+@media(min-width:992px){
+    @for $font from 1 to 61 {
+        .font-lg-#{$font} { font-size: 2px * $font; }
+    }  
+} 
+
+// FONTS MIN 1200 PX
+@media(min-width:1200px){
+    @for $font from 1 to 61 {
+        .font-xl-#{$font} { font-size: 2px * $font; }
+    }  
+} 
+
+// FONTS MIN 1367 PX
+@media(min-width:1367px){
+    @for $font from 1 to 61 {
+        .font-xxl-#{$font} { font-size: 2px * $font; }
+    }
+} 
+
+// FONTS MIN 1921 PX 
+@media(min-width:1921px){
+    @for $font from 1 to 61 {
+        .font-xxxl-#{$font} { font-size: 2px * $font; }
+    }
+} 
