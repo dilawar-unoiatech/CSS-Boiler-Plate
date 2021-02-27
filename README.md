@@ -1,3 +1,15 @@
+
+<h2>Break Points</h2>
+<ul>
+    <li>-* : min 0px</li>
+    <li>-sm* : min 576px</li>
+    <li>-md* : min 768px</li>
+    <li>-lg* : min 992px</li>
+    <li>-xl* : min 1200px</li>
+    <li>-xxl* : min 1367px</li>
+    <li>-xxxl* : min 1921px</li>
+</ul>
+
 <h2>Fonts (2px - 120px) (Multiple of 2)</h2>
 <ul>
     <li>font-* : *px</li>
