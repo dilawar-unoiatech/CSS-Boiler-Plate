@@ -1,7 +1,7 @@
 
 <h2>Break Points</h2>
 <ul>
-    <li>-* : min 0px</li>
+    <li>-* : min 1px</li>
     <li>-sm* : min 576px</li>
     <li>-md* : min 768px</li>
     <li>-lg* : min 992px</li>
